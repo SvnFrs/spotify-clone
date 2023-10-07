@@ -1,3 +1,9 @@
+* {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .login {
     display: grid;
     place-items: center;
@@ -5,11 +11,13 @@
     background-color: black;
 }
 .login > img {
+    object-fit: contain;
     width: 60rem;
     height: 18rem;
 }
 @media screen and (max-width: 1368px) {
     .login > img {
+        object-fit: contain;
         width: 41rem;
         height: 13rem;
     }
@@ -18,12 +26,14 @@
 
 @media screen and (max-width: 768px) {
     .login > img {
+        object-fit: contain;
         width: 30rem;
         height: 9rem;
     }
 }
 @media screen and (max-width: 480px) {
     .login > img {
+        object-fit: contain;
         width: 20rem;
         height: 6rem;
     }

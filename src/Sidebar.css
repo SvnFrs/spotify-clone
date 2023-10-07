@@ -1,0 +1,16 @@
+.sidebar {
+    height: 100vh;
+    flex: 0.2;
+    min-width: 15rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #cdd6f4;
+    background-color: #585b70;
+    background: linear-gradient(18deg,#585b70 20%, #1e1e2e 100%);
+}
+.sidebar-logo {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    width: 10rem;
+    object-fit: contain;
+}
