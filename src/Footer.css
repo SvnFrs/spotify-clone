@@ -1,8 +1,11 @@
 .footer {
+    display: flex;
+    justify-content: space-between;
+    color: #cdd6f4;
     position: fixed;
     bottom: 0;
     height: 65px;
     width: 100vw;
-    background: linear-gradient(40deg, #585b70 10rem, #b4befe 100%); 
+    background-color: #181825;
     padding: 20px;
 }

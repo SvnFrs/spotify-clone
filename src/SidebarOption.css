@@ -1,0 +1,26 @@
+* {
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sidebarOption {
+  display: flex;
+  align-items: center;
+    font-weight: bolder;
+  color: #cdd6f4;
+  height: 2rem;
+  cursor: pointer;
+  transition: 300ms color ease-in;
+}
+.sidebarOption:hover {
+    color: #f38ba8;
+}
+.sidebarOption-icon {
+  padding-right: 0.5rem;
+}
+.sidebarOption > p {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+}
