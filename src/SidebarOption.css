@@ -5,13 +5,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .sidebarOption {
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
   display: flex;
   align-items: center;
-    font-weight: bolder;
+  font-weight: bolder;
   color: #cdd6f4;
   height: 2rem;
   cursor: pointer;
-  transition: 300ms color ease-in;
+  transition: 200ms color ease-in;
 }
 .sidebarOption:hover {
     color: #f38ba8;

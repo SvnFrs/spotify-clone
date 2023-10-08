@@ -1,8 +1,56 @@
 .body {
+    overflow-y: scroll;
     padding: 2rem;
     height: 100vh;
     flex: 0.8;
     color: white;
     background: linear-gradient(19deg,#f5c2e7 20%, #a6e3a1 100%);
-
+}
+.body-info {
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
+.body-info > img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px#94e2d5;
+}
+.body-infoText {
+    flex: 1;
+}
+.body-infoText > h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.body-infoText > p {
+    font-size: 1rem;
+}
+.body-icons {
+    display: flex;
+    align-items: center;
+}
+.body-icons > .MuiSvgIcon-root{
+    margin-right: 1.5rem;
+}
+.body-play {
+    font-size: 4rem !important;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.body-play:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+.body-favorite:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+.body-more:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.3);
+}
+.body-songs {
+    margin: 20px -30px;
 }

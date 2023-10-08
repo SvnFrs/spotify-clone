@@ -8,6 +8,8 @@ const scope = [
     "user-read-playback-state",
     "user-top-read",
     "user-modify-playback-state",
+    "user-library-read",
+    "playlist-read-private"
 ];
 
 export const getTokenFromUrl = () => {

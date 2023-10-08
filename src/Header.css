@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.header-left {
+    flex: 0.2;
+    background: linear-gradient(19deg,#1e1e2e 20%, #a6e3a1 100%);
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    min-width: 5rem;
+}
+.header-left > input {
+    cursor: pointer;
+    caret-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    /* background: linear-gradient(91deg,#313244 20%, #b4befe 100%); */
+    background: none;
+    border: none;
+    width: 100%;
+}
+.header-left > input[type=text]:focus{
+    outline: none;
+  }
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-right > h4 {
+    margin-left: 1rem;
+}

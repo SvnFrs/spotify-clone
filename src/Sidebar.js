@@ -7,7 +7,7 @@ import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 import { useDataLayerValue } from './DataLayer';
 
 function Sidebar() {
-  const [{ playlists }, dispatch] = useDataLayerValue(); 
+  const [{ playlists }, {libraries}, dispatch] = useDataLayerValue();
   return (
     <div className='sidebar'>
         <img className='sidebar-logo'
@@ -21,7 +21,10 @@ function Sidebar() {
         </strong>
         <hr />
         {playlists?.items?.map((playlist) => (
-          <SidebarOption title={playlist.name}/>
+          <div>
+             <SidebarOption title={playlist.name}/>
+          </div>
+          
         )) }
     </div>
   )
