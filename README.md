@@ -20,4 +20,4 @@ bun start
 ```
 #### If encounter bug(s), consider fixing it yourself
 
-#### <img src="https://i.gifer.com/4KS.gif" width="40" height="40" />
+<img src="https://i.gifer.com/4KS.gif" width="40" height="40" />
