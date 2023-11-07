@@ -2,7 +2,7 @@
     overflow-y: scroll;
     padding: 2rem;
     height: 100vh;
-    flex: 0.8;
+    flex: 1;
     color: white;
     background: linear-gradient(19deg,#f5c2e7 20%, #a6e3a1 100%);
 }
