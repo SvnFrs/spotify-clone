@@ -18,3 +18,6 @@ npm start
 =========
 bun start
 ```
+#### If encounter bug(s), consider fixing it yourself
+
+#### ![Alt Text](https://i.gifer.com/4KS.gif)
